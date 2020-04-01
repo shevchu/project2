@@ -8,11 +8,16 @@ body {
     color: #FEA3AC;
 }
 .container {
-    display: inline-block;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 header {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
 }
+
+.header-element {
+    display: inline;
+}
+
