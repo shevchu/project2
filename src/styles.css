@@ -12,3 +12,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
