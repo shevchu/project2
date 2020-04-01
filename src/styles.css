@@ -1,0 +1,14 @@
+body {
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.about {
+    color: #FEA3AC;
+}
+.container {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
