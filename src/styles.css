@@ -3,21 +3,47 @@ body {
     height: 100%;
     margin: 0 auto;
     background-color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
 }
 .about {
     color: #FEA3AC;
 }
 .container {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-header {
-    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
+    color: #433840;
 }
 
-.header-element {
-    display: inline;
+.header-element  li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 42px;
+
 }
 
+.header-img  {
+    margin-top: 16px;
+}
+
+.about-us {
+    background-image: url("./img/Heading.svg");
+    height: 400px;
+    width: 1820px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #433840;
+}
+
+p {
+    font-size: 15px;
+    color: #9A9A9A;
+}
