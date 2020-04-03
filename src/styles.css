@@ -33,17 +33,46 @@ body {
 }
 
 .about-us {
-    background-image: url("./img/Heading.svg");
+    background-image: url("./img/Heading.png");
     height: 400px;
     width: 1820px;
+}
+
+.smoothie {
+    margin-top: 67px;
+    margin-bottom: 60px;
 }
 
 h2 {
     font-size: 30px;
     color: #433840;
+    margin-bottom: 12px;
 }
 
 p {
     font-size: 15px;
     color: #9A9A9A;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statistics {
+    background-image: url("./img/Rectangle\ 8.png");
+    height: 600px;
+    width: 1820px;
+}
+
+.icon {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.quantity {
+    color: #DFEEB6;
+    font-size: 60px;
+    font-family: 'Waiting for the Sunrise', cursive;;
 }
