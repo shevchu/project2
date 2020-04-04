@@ -53,7 +53,7 @@ h1{
     margin-bottom: 0;
 }
 
-h2{
+.about-us > h2{ 
     font-size: 30px;
     font-family:'Waiting for the Sunrise', cursive;
     margin-top: 0;
@@ -124,3 +124,16 @@ p {
     font-size: 30px;
     margin-top: 0;
 }
+
+.member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.member_reversed {
+    flex-direction: row-reverse;
+}
+
+
+
