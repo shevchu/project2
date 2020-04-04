@@ -36,6 +36,7 @@ body {
 .about-us {
     background-image: url("./img/Heading.png");
     height: 400px;
+    /* color: #FFFFFF;*/
 }
 
 .smoothie {
@@ -43,10 +44,34 @@ body {
     margin-bottom: 60px;
 }
 
-h2 {
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-family:'Waiting for the Sunrise', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
     font-size: 30px;
     color: #433840;
     margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 50px;
+    color: #433840;
+    margin-top: 57px;
+    margin-bottom: 0;
+
 }
 
 p {
@@ -61,7 +86,7 @@ p {
 }
 
 .statistics-image {
-    background-image: url("./img/Rectangle\ 8.png");
+    background-color: #FEA3AC;
     height: 600px;
     display: flex;
     justify-content: space-between;
@@ -85,5 +110,18 @@ p {
 .quantity {
     color: #DFEEB6;
     font-size: 60px;
-    font-family: 'Waiting for the Sunrise', cursive;;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    color: #F7A1A8;
+    font-family:'Waiting for the Sunrise', cursive;
+    font-size: 30px;
+    margin-top: 0;
 }
