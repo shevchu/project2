@@ -149,6 +149,11 @@ p {
     margin-left: 0;
 }
 
+.member_reversed h1,
+.member_reversed h2 {
+    text-align: right;
+} 
+
 .circle {
     border-radius: 50%;
 }
@@ -164,6 +169,7 @@ p {
 
 .member-description > h2 {
     font-size: 20px;
+
 }
 
 .member-description > p {
@@ -175,6 +181,10 @@ p {
 
 }
 
+.footer h1 {
+    font-size: 30px;
+}
+
 .footer-first {
     background-image:url("./img/footer.png"); 
     position: absolute;
@@ -183,10 +193,10 @@ p {
     height: 100%;
     font-size: 20px;
     color: #ffffff;
+}
+
+.footer-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
 }
 
 .working-hours {
@@ -199,5 +209,12 @@ p {
     width: 100%;
     max-height: 60px;
     height: 100%; */
+}
+
+.food {
+    display: grid;
+    grid-template-columns: repeat(3, 97px);
+    grid-template-rows: repeat(2, 97px);
+    grid-gap: 26px;
 }
 
