@@ -187,9 +187,8 @@ p {
 
 .footer-first {
     background-image:url("./img/footer.png"); 
-    position: absolute;
     width: 100%;
-    max-height: 440px;
+    min-height: 440px;
     height: 100%;
     font-size: 20px;
     color: #ffffff;
@@ -197,6 +196,8 @@ p {
 
 .footer-content {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .working-hours {
@@ -204,11 +205,11 @@ p {
 }
 
 .footer-second {
-   /* background-color: #433840;
-    position: absolute;
+    background-color: #433840;
     width: 100%;
-    max-height: 60px;
-    height: 100%; */
+    min-height: 60px;
+    font-size: 15px;
+    color: #ffffff;
 }
 
 .food {
@@ -218,3 +219,14 @@ p {
     grid-gap: 26px;
 }
 
+.footer-element  h1{
+    margin-bottom: 25px;
+}
+
+.footer-second > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
