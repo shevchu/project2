@@ -150,9 +150,17 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid;
     padding: 25px 0; 
+    position: relative;
+}
 
+.member__color {
+    position: absolute;
+    width: 390px;
+    height: 100%;
+    background-color: #C9E3F4;
+    border-radius: 5px;
+    right: 0;
 }
 
 .member_reversed {
