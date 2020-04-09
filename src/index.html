@@ -10,18 +10,30 @@
 </head>
 <body>
     <header class="container menu">
-        <ul class="header-element">
-            <li>Home</li>
-            <li class="about">About</li>
-            <li>Blog</li>
+        <ul class="header-menu">
+            <li class="header-menu__item">
+                <a href="#">Home</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#">About</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#">Blog</a>
+            </li>
         </ul>
         <div class="header-img">
             <img src="./img/Group 2.svg" width="224" height="73">
         </div>
-        <ul class="header-element"> 
-            <li>Menu</li>
-            <li>Shop</li>
-            <li>Contact</li>
+        <ul class="header-menu">
+            <li class="header-menu__item">
+                <a href="#">Menu</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#">Shop</a>
+            </li>
+            <li class="header-menu__item">
+                <a href="#">Contact</a>
+            </li>
         </ul>
     </header>
     <div class="about-us"> 
@@ -61,8 +73,15 @@
             fresh mint, vanilla extract, cinnamon, or honey. </p>
         </div>
     </div>
-    <div class="statistics-image">
-        <div class="container statistics">
+
+    <section class="statistics">
+        <img 
+            src="./img/top.png"
+            height="111"
+            alt="statistics-top"
+            class="statistics-top"
+        >
+        <div class="container statistics-content">
             <div class="icon">
                 <img src="./img/cherry .svg" alt="cherry" width="129" height="129">
                 <span class="quantity">4832</span>
@@ -84,7 +103,13 @@
                 <span>Bananas smoothies</span>
             </div>
         </div>
-    </div>
+        <img 
+            src="./img/top.png"
+            height="111"
+            alt="statistics-bottom"
+        >
+    </section>
+    
     <div class="team container">
         <h1>Dream Team</h1>
         <h5 class="subtitle">Meet our members</h5>
@@ -173,9 +198,15 @@
         </div>
         <div class="footer-second">
             <div class="copyrights container">
-                <span>Copyrights 2020. Ale Theme for WordPress
+                <span>
+                    Copyrights 2020. Ale Theme for WordPress
                 </span>
-                <img src="./img/social media.svg" alt="socialmedia">
+                <img 
+                    height="15"
+                    width="105"
+                    src="./img/social media.svg"
+                    alt="socialmedia"
+                >
             </div>
         </div>
     </footer>
