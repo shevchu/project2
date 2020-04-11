@@ -164,14 +164,29 @@ p {
     position: absolute;
     width: 390px;
     height: 100%;
-    background-color: #C9E3F4;
     border-radius: 5px;
-    right: 0;
     z-index: 1;
+}
+
+.member__color_right {
+    right: 0;
+}
+
+.member__color_left {
+    left: 0;
+}
+
+.member__color_green {
+    background-color: #DFEEB6;
+}
+
+.member__color_blue {
+    background-color: #C9E3F4;
 }
 
 .member_reversed {
     flex-direction: row-reverse;
+
 }
 
 .member_reversed > .member-description{
@@ -191,7 +206,7 @@ p {
 .member-description {
     margin-left: 15px;
     position: relative;
-    z-index: 2;
+    z-index: 2;                                 
 }
 
 .member-description > h1 {
