@@ -147,11 +147,17 @@ p {
 }
 
 .member {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 25px 0; 
+
+}
+
+.member > img {
     position: relative;
+    z-index: 2;
 }
 
 .member__color {
@@ -161,6 +167,7 @@ p {
     background-color: #C9E3F4;
     border-radius: 5px;
     right: 0;
+    z-index: 1;
 }
 
 .member_reversed {
@@ -183,11 +190,13 @@ p {
 
 .member-description {
     margin-left: 15px;
+    position: relative;
+    z-index: 2;
 }
 
 .member-description > h1 {
     font-size: 30px;
-    /*color: #ffffff;*/
+    color: #ffffff;
 }
 
 .member-description > h2 {
